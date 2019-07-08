@@ -1,0 +1,40 @@
+body{
+    padding:0;
+}
+.container{
+    background-color:#333;
+    font-size:0;
+}
+.container .nav-item{
+    display:inline-block;
+    padding:14px 16px;
+    margin:0;
+}
+.container .nav-item a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+#dropdownbtn{
+    position:relative;
+}
+#dropdownbtn:hover .dropdown{
+    position:absolute;
+    width:80%;
+    background-color:rgb(233, 212, 212);
+    top:51px;
+    display:block;
+}
+.dropdown{
+    position:absolute;
+    width:80%;
+    background-color:rgb(233, 212, 212);
+    top:51px;
+    display:none;
+}
+.dropdown .dropdown-item{
+    padding:4%;
+}
+.dropdown .dropdown-item a{
+    color:black;
+}
